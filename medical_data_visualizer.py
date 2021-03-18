@@ -10,7 +10,15 @@ df = pd.read_csv('medical_examination.csv')
 df['overweight'] = df['overweight'] = df.apply(lambda x: 1 if (x.weight / (np.square(x.height / 100))) > 25 else 0, axis=1)
 
 # Normalize data by making 0 always good and 1 always bad. If the value of 'cholestorol' or 'gluc' is 1, make the value 0. If the value is more than 1, make the value 1.
+def normalize_values(value, **kwargs):
+    if value <= 1:
+        value = 0
+    else:
+        value = 1
+    return value
 
+for i in range(7, 13):
+    df.iloc[:, i] = df.apply(lambda x: normalize_values(x[i]), axis=1)
 
 # Draw Categorical Plot
 def draw_cat_plot():
