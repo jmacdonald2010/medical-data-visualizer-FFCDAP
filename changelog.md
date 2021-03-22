@@ -1,5 +1,8 @@
 # in-progress branch changelog
 
+## 03/21/2021 20:05
+Trying to figure out how to get what they want with the pd.melt part of the assignment. Pd.melt was not mentioned in the course, nor was anything actually visualized with seaborn, so needless to say, this exceptionally difficult and incredibly frustrating. Done for the night with this with no real progress to speak of; will try at another time to figure this out.
+
 ## 03/18/2021 07:42
 Trying to figure out the pd.melt and graph with seaborn part. Not entirely sure what I should be doing here or what is the desired outcome. Commit/Push before logging into work.
 
