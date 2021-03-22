@@ -1,5 +1,8 @@
 # in-progress branch changelog
 
+## 03/22/2021 19:39
+Figured out the pd.melt chart. Used freeCodeCamp forum user ArbyC's approach w/ not using groupby before creating the chart(I, like many others, have strong feelings about the charting for this assignment). Working on filtering out the data for the last chart.
+
 ## 03/21/2021 20:05
 Trying to figure out how to get what they want with the pd.melt part of the assignment. Pd.melt was not mentioned in the course, nor was anything actually visualized with seaborn, so needless to say, this exceptionally difficult and incredibly frustrating. Done for the night with this with no real progress to speak of; will try at another time to figure this out.
 

@@ -23,14 +23,21 @@ for i in range(7, 9):
 # Draw Categorical Plot
 def draw_cat_plot():
     # Create DataFrame for cat plot using `pd.melt` using just the values from 'cholesterol', 'gluc', 'smoke', 'alco', 'active', and 'overweight'.
-    df_cat = None
+    df_cat = pd.melt(df, id_vars='cardio', value_vars=['cholesterol', 'gluc', 'smoke', 'alco', 'active', 'overweight'])
+
 
 
     # Group and reformat the data to split it by 'cardio'. Show the counts of each feature. You will have to rename one of the collumns for the catplot to work correctly.
-    df_cat = None
+    # df_cat = None # was able to create a graph that looks correct w/o this step
 
     # Draw the catplot with 'sns.catplot()'
-
+    fig = sns.catplot(  # not entirely sure if i'm supposed to assign this to the var fig
+        data=df_cat,
+        kind='count',
+        x='variable',
+        hue='value',
+        col='cardio'
+    )
 
 
     # Do not modify the next two lines
