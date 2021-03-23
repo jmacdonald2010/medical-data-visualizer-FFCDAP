@@ -1,5 +1,17 @@
 # in-progress branch changelog
 
+## 03/22/2021 22:00
+Code failed two tests, both in the CatPlotTest
+
+- Test Bar Plot number of bars
+    - should be 13, need to compare w/ ex. image.
+    - error is specifically:
+        - AttributeError: 'numpy.ndarray' object has no attribute 'get_children'
+- Test line plot labels
+    - should be 'variable'
+    - error is specifically:
+        - AttributeError: 'numpy.ndarray' object has no attribute 'get_xlabel'
+
 ## 03/22/2021 21:51
 Ready for tests, test not run yet. Commit/Push prior to first attempt at tests. The code required to get a similar heatmap to the one in the project folder is shockingly like the example code on the seaborn website for heatmaps.
 
