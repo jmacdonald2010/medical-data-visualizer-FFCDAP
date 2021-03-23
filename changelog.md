@@ -1,5 +1,8 @@
 # in-progress branch changelog
 
+## 03/22/2021 21:51
+Ready for tests, test not run yet. Commit/Push prior to first attempt at tests. The code required to get a similar heatmap to the one in the project folder is shockingly like the example code on the seaborn website for heatmaps.
+
 ## 03/22/2021 19:39
 Figured out the pd.melt chart. Used freeCodeCamp forum user ArbyC's approach w/ not using groupby before creating the chart(I, like many others, have strong feelings about the charting for this assignment). Working on filtering out the data for the last chart.
 
