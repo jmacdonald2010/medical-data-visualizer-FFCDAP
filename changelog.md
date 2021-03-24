@@ -1,5 +1,8 @@
 # in-progress branch changelog
 
+## 03/23/2021 21:17
+Code passes all tests. 
+
 ## 03/22/2021 22:00
 Code failed two tests, both in the CatPlotTest
 
